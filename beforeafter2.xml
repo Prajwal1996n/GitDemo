@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+
+<listener class-name="test.Listeners"/>
+
+
+
+</listeners>
+
+
+  <test  name="Checking">
+  
+  <parameter name="URL" value="qaclickacademy.com"/>
+  
+<classes>
+  
+  <class name="test.day1"/>
+
+
+</classes>
+
+  </test>
+
+    <test  name="Checking1">
+  
+  <parameter name="URL" value="google.com"/>
+    <parameter name="APIKey/username" value="prajwal.com"/>
+
+  <classes>
+  
+  <class name="test.day4"/>
+
+</classes>
+
+  </test>
+
+</suite> <!-- Suite -->
+
+
+
