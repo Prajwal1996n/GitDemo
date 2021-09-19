@@ -17,6 +17,7 @@ public class day4 {
 		System.out.println("This is executing before");
 		System.out.println(abc);
 		System.out.println(xyz);
+		System.out.println("hai prajj");
 	}
 	
 
